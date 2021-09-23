@@ -8,7 +8,7 @@ Arguments schema:
 `0: phrase, 1: salt, 2: grid size, 3: steps, 4: image draw, 5: image deletion, 6: bin save, 7: hash printing, 8: picked rule`
 
 ## How it works
-### Initializatoin
+### Initialization
 Provided string is turned into binary representation, and all bits are joined together. After that, on the automata grid, the cells state is defined based on those bits. To make the output more unique and less prone to repetitions, the bits are laid out in spiral, counter clockwise fashion, starting from the middle of the grid.
 
 Example starting point is shown below.
